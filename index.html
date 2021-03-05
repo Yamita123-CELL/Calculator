@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "container" class=”calculator”>
+        <input type="input" id="input"/>
+        <button class="operator" id="clr" onClick="clearAll()">C</button>
+         <div class=”keys”>
+         <div class=”row”>
+                <button class="value" id="block7">7</button>
+                <button class="value" id="block8">8</button>
+                <button class="value" id="block9">9</button>
+                <button class="value" id="plus">+</button>
+          </div>
+          <div class=”row”>
+                <button class="value" id="block4">4</button>
+                <button class="value" id="block5">5</button>
+                <button class="value" id="block6">6</button>
+                <button class="value" id="minus">-</button>
+           </div>
+           <div class=”row”>
+                <button class="value" id="block1">1</button>
+                <button class="value" id="block2">2</button>
+                <button class="value" id="block3">3</button>
+                <button class="value" id="multiply">*</button>
+           </div>
+           <div class=”row”>
+                <button class="value" id="dot">.</button>
+                <button class="value" id="block0">0</button>
+                <button class="value" id="divide">/</button>
+                <button class="operator" id="ans" onClick="showResult()">=</button>
+            </div>
+         </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
